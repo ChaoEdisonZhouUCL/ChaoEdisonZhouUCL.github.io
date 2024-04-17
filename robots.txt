@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ChaoEdisonZhouUCL.github.io/al-folio/sitemap.xml
+Sitemap: https://ChaoEdisonZhouUCL.github.io/sitemap.xml
