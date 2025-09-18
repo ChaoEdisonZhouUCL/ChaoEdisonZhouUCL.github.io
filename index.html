@@ -132,6 +132,11 @@
                     <div class="table-responsive">
                         <table class="table table-sm table-borderless">
                             <tr>
+                                <th scope="row" style="width: 20%">Sep,
+                                    2025</th>
+                                <td> Two papers 'Pay Attention to Small Weights' and 'Sign-In to the Lottery: Reparameterizing Sparse Training' are accepted at NIPS 2025. </td>
+                            </tr>
+                            <tr>
                                 <th scope="row" style="width: 20%">May,
                                     2025</th>
                                 <td> Our work 'Mirror, Mirror of the Flow: How Does Regularization Shape Implicit Bias?' is accepted at ICML 2025. </td>
@@ -201,6 +206,85 @@
                 <div class="publications">
                     <ol class="bibliography">
                         <li>
+                            <div class="row">
+                                <div class="col-sm-2 abbr"> <abbr class="badge">Conference</abbr>
+                                </div>
+                                <div id="arXiv:2506.21374" class="col-sm-8">
+                                    <div class="title">Pay Attention to Small Weights
+                                    </div>
+                                    <div class="author">
+                                        <em>C. Zhou</em>,                                        
+                                        <a href="https://scholar.google.com/citations?user=parDMogAAAAJ&hl=en"
+                                            rel="external nofollow noopener" target="_blank">Advait Gadhikar</a>,
+                                        <a href="https://scholar.google.com/citations?user=Yi62zDEAAAAJ&hl=en"
+                                        rel="external nofollow noopener" target="_blank">Tom Jacobs</a>,
+                                        and <a href="https://scholar.google.com/citations?user=vkWBb2wAAAAJ&hl=en"
+                                            rel="external nofollow noopener" target="_blank">Rebekka Burkholz</a>
+                                    </div>
+                                    <div class="periodical"> in <em>NIPS 2025</em>.</div>
+
+                                    <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+                                        <a href="https://arxiv.org/abs/2506.21374"
+                                            class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener"
+                                            target="_blank">PDF</a>
+                                    </div>        
+                                    <div class="abstract hidden">
+                                        <p>Finetuning large pretrained neural networks is known to be resource-intensive, 
+                                            both in terms of memory and computational cost. To mitigate this, a common 
+                                            approach is to restrict training to a subset of the model parameters. By 
+                                            analyzing the relationship between gradients and weights during finetuning, 
+                                            we observe a notable pattern: large gradients are often associated with 
+                                            small-magnitude weights. This correlation is more pronounced in finetuning 
+                                            settings than in training from scratch. Motivated by this observation, we 
+                                            propose NANOADAM, which dynamically updates only the small-magnitude weights 
+                                            during finetuning and offers several practical advantages: first, this 
+                                            criterion is gradient-free -- the parameter subset can be determined 
+                                            without gradient computation; second, it preserves large-magnitude weights, 
+                                            which are likely to encode critical features learned during pretraining, 
+                                            thereby reducing the risk of catastrophic forgetting; thirdly, it permits 
+                                            the use of larger learning rates and consistently leads to better 
+                                            generalization performance in experiments. We demonstrate this for both NLP 
+                                            and vision tasks.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-2 abbr"> <abbr class="badge">Conference</abbr>
+                                </div>
+                                <div id="	arXiv:2504.12801" class="col-sm-8">
+                                    <div class="title">Sign-In to the Lottery: Reparameterizing Sparse Training From Scratch
+                                    </div>
+                                    <div class="author">
+                                        <a href="https://scholar.google.com/citations?user=parDMogAAAAJ&hl=en"
+                                            rel="external nofollow noopener" target="_blank">Advait Gadhikar</a>,
+                                        <a href="https://scholar.google.com/citations?user=Yi62zDEAAAAJ&hl=en"
+                                            rel="external nofollow noopener" target="_blank">Tom Jacobs</a>, <em>C. Zhou</em>, and
+                                        <a href="https://scholar.google.com/citations?user=vkWBb2wAAAAJ&hl=en"
+                                            rel="external nofollow noopener" target="_blank">Rebekka Burkholz</a>
+                                    </div>
+                                    <div class="periodical"> in <em>NIPS 2025</em>.</div>
+
+                                    <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+                                        <a href="https://arxiv.org/abs/2504.12801"
+                                            class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener"
+                                            target="_blank">PDF</a>
+                                    </div>        
+                                    <div class="abstract hidden">
+                                        <p>The performance gap between training sparse neural networks from scratch 
+                                            (PaI) and dense-to-sparse training presents a major roadblock for 
+                                            efficient deep learning. According to the Lottery Ticket Hypothesis, 
+                                            PaI hinges on finding a problem specific parameter initialization. As we 
+                                            show, to this end, determining correct parameter signs is sufficient. 
+                                            Yet, they remain elusive to PaI. To address this issue, we propose 
+                                            Sign-In, which employs a dynamic reparameterization that provably 
+                                            induces sign flips. Such sign flips are complementary to the ones 
+                                            that dense-to-sparse training can accomplish, rendering Sign-In as 
+                                            an orthogonal method. While our experiments and theory suggest 
+                                            performance improvements of PaI, they also carve out the main open 
+                                            challenge to close the gap between PaI and dense-to-sparse training.</p>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="row">
                                 <div class="col-sm-2 abbr"> <abbr class="badge">Conference</abbr>
                                 </div>
