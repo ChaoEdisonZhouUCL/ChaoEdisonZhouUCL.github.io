@@ -93,6 +93,50 @@
               <div class="row">
                 <div class="col-sm-2 abbr"> <abbr class="badge">Conference</abbr>
                 </div>
+                <div id="model_merging" class="col-sm-8">
+                  <div class="title">Bridging Domains through Subspace-Aware Model Merging
+                  </div>
+                  <div class="author">
+                    <a href="https://scholar.google.com/citations?user=dDfbSWUAAAAJ&hl=en"
+                        rel="external nofollow noopener" target="_blank">Levy Chaves</a>,
+                    <em>C. Zhou</em>,
+                    <a href="https://scholar.google.com/citations?user=vkWBb2wAAAAJ&hl=en"
+                        rel="external nofollow noopener" target="_blank">Rebekka Burkholz</a>,
+                    <a href="https://scholar.google.com/citations?user=lxWPqWAAAAAJ&hl=en"
+                        rel="external nofollow noopener" target="_blank">Eduardo Valle</a>,
+                    and <a href="https://scholar.google.com/citations?user=TbM0rGQAAAAJ&hl=en"
+                        rel="external nofollow noopener" target="_blank">Sandra Avila</a> 
+                  </div>
+                  <div class="periodical"> in <em>CVPR 2026</em>.</div>
+
+                  <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+                    <a href="https://openreview.net/forum?id=YgudIlQ9nC" class="btn btn-sm z-depth-0"
+                      role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+                  </div>
+                  <div class="abstract hidden">
+                    <p>Model merging integrates multiple task-specific models into a single consolidated 
+                      one. Recent research has made progress in improving merging performance for 
+                      in-distribution or multi-task scenarios, but domain generalization in model 
+                      merging remains underexplored. We investigate how merging models fine-tuned on 
+                      distinct domains affects generalization to unseen domains. Through an analysis 
+                      of parameter competition in the task matrix using singular value decomposition 
+                      (SVD), we show that merging models trained under different distribution shifts 
+                      induces stronger conflicts between their subspaces compared to traditional 
+                      multi-task settings. To mitigate this issue, we propose SCORE 
+                      (Subspace COnflict-Resolving mErging), a method designed to alleviate such 
+                      singular subspace conflicts. SCORE finds a shared orthogonal basis by computing 
+                      the principal components of the concatenated leading singular vectors of all 
+                      models. It then projects each task matrix into the shared basis, pruning 
+                      off-diagonal components to remove conflicting singular directions. SCORE 
+                      consistently outperforms, on average, existing model merging approaches 
+                      in domain generalization settings across a variety of architectures and model scales, 
+                      demonstrating its effectiveness and scalability.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-2 abbr"> <abbr class="badge">Conference</abbr>
+                </div>
                 <div id="never_saddle" class="col-sm-8">
                   <div class="title">Never Saddle: Reparameterized Steepest Descent as Mirror Flow
                   </div>
